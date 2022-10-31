@@ -2,16 +2,47 @@
 
 body{
   font-family: "Chakra Petch", sans-serif;
-  font-size: 30px;
-}
+  font-size: 50px;
+  }
 .div1{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: auto;
     min-height: 100vh;
 }
-.H1{
+.H1,.H2,.H3,.H4,.H5,.H7{
   display: inline-block;
+}
+.H2{
+  font-weight:900;
+  font-size: 70px;
+  color: rgb(246, 69, 234);
+
+}
+.H3{
+  font-size: 35px;
+  color: rgb(54, 66, 90);
+}
+.H4{
+  color: rgb(246, 69, 234);
+}
+
+.H7{
+  display: inline-block;
+  text-decoration: none;
+}
+.H8{
+  display: flex;
+  border: 3px black solid;
+  padding: 10px;
+  border-radius:5px ;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.H9{
+  display: inline-block;
+  width: 64px;
 }
