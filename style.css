@@ -22,11 +22,14 @@ body{
 
 }
 .text3{
-  font-size: 35px;
+  font-size: 40px;
   color: rgb(54, 66, 90);
+  padding: 25px 35px;
 }
 .text4{
   color: rgb(246, 69, 234);
+  padding: 0px 25px;
+  
 }
 
 .column7,.link1,.link2{
@@ -37,12 +40,36 @@ body{
   display: flex;
   border: 3px black solid;
   padding: 10px;
+  margin: 0px 05px;
   border-radius:5px ;
   justify-content: center;
   align-items: center;
   color: black;
 }
+.button1:hover{
+  background-color: black;
+  border: 3px rgb(246, 69, 234) solid;
+  color: white;
+}
+.button2:hover{
+  background-color: black;
+  border: 3px rgb(246, 69, 234) solid;
+  color: white;
+}
+.img1:hover{
+
+}
+.img2:hover{ 
+
+}
 .img1,.img2{
   display: inline-block;
   width: 64px;
+}
+
+/* smartphone */
+@media (max-width:500px){
+  body{
+    background-color: red;
+  }
 }
